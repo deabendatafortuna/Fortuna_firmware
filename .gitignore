@@ -1,0 +1,84 @@
+# Espressif IoT Development Framework (ESP-IDF)
+
+# Build directories
+/build/
+/*.bin
+/*.elf
+/*.map
+
+# Object files
+*.obj
+*.o
+
+# CMake
+CMakeLists.txt.user
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Debug files
+/Debug/
+/debug/
+
+# VSCode
+.vscode/
+
+# IDF specific
+/sdkconfig
+/sdkconfig.old
+/project_description.json
+/flash_project_args
+/partition_table
+/bootloader
+/html/
+
+# Generated documentation
+/docs/_build/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Log files
+*.log
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+
+# Include personal user settings and temporary files
+*.user
+*.local
+*.temp
+*.bak
+*.backup
+
+# Exclude executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Exclude zip and compressed files
+*.zip
+*.tar
+*.gz
+*.bz2
+
+# Exclude IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
